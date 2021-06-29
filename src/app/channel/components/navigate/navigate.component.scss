@@ -1,0 +1,30 @@
+
+.buttons, .selects {
+    display: flex;
+}
+
+.button {
+    width: 160px;
+    height: 48px;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 0;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+
+    color: #FFFFFF;
+    cursor: pointer;
+}
+.button:hover {
+    color: #BA9D5A;
+}
+.button.active {
+    font-weight: 700;
+    color: #FFFFFF;
+    border-bottom: 2px solid #BA9D5A;
+}

@@ -1,0 +1,17 @@
+<div class="channel">
+  <div class="channel-background">
+    <img [src]="channel?.picture.backgrounds[0] | safeResourceUrl">
+  </div>
+  <div class="channel-info"></div>
+</div>
+<app-popover [isActive]="isOpenPopover">
+<div class="tooltip">
+  <img [src]="channel?.picture.channelBlackWhites[0] | safeResourceUrl">
+  <div class="tooltip-header">
+     {{channel.name}}
+  </div>
+  <div class="tooltip-content">
+    <div class="text">{{channel.introduce}}</div> 
+  </div>
+</div>
+</app-popover>

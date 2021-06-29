@@ -1,0 +1,28 @@
+.wrapper {
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+    max-width: 1280px;
+}
+.channels {
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-row-gap: 24px;
+    grid-column-gap: 16px;
+}
+
+.count {
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+    font-feature-settings: 'tnum' on, 'lnum' on;
+
+    /* #FFFFFF */
+
+    color: #FFFFFF;
+}
+
+

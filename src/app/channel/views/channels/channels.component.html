@@ -1,0 +1,11 @@
+  <div class="layout">
+    <div class="count">
+      {{totalCountChannel}} {{ totalCountChannel | plural:['канал', 'канала', 'каналов']}}
+    </div>
+    <div class="channels">
+      <div *ngFor="let channel of channelDetails; let i = index">
+        <app-channel [channel]="channel"></app-channel>
+      </div>
+    </div>
+    <app-button-load-more (onClickBtn)="next()"></app-button-load-more>
+  </div>

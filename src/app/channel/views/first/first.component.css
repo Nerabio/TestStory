@@ -1,0 +1,12 @@
+.count {
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+    font-feature-settings: 'tnum' on, 'lnum' on;
+
+    /* #FFFFFF */
+
+    color: #FFFFFF;
+}

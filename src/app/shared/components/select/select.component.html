@@ -1,0 +1,12 @@
+ <div class="selects">
+  <div [ngClass]="{'active': isOpen}" class="select">
+    <div [ngClass]="{'selected': !!currentValue}" class="label">{{label}}</div>
+    <div class="select-list" [ngClass]="{'hide': !isOpen}">
+      <div class="select-items">
+        <div (click)="onSelectOption(option.value)" *ngFor="let option of options" [ngClass]="{'selected': currentValue === option.value}" class="select-item">{{option.label}}</div>
+      </div>
+      <div (click)="onSelectOption(null)"  *ngIf="!!currentValue" class="reset">Сбросить выбор</div>
+    </div>
+  </div>
+</div> 
+

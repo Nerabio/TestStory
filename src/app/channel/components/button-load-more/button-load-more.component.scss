@@ -1,0 +1,28 @@
+.icon{
+    width: 27px;
+    height: 27px;
+    transform: rotate(-44.91deg);
+}
+
+.icon-more {
+    background-image: url("/assets/svg/more.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.show-more {
+    margin: 10px auto;
+    width: max-content;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    color: rgba(232, 249, 255, 0.4);
+    cursor: pointer;
+}

@@ -1,0 +1,6 @@
+<div class="buttons">
+  <div *ngFor="let item of menuItems">
+    <div class="button" routerLinkActive="active" [routerLink]="item.route">{{item.name}}</div>
+  </div>
+</div>
+

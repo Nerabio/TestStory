@@ -1,0 +1,32 @@
+.wrapper {
+    margin: 0 auto;
+    width: 100%;
+    min-height: 100%;
+    max-width: 1280px;
+}
+
+.layout {
+    margin: 0 auto;
+    max-width: 1040px;
+}
+
+.border {
+    position: relative;
+    margin-top: -1px;
+    z-index: -1;
+    margin-bottom: 20px;
+    text-align: center;
+    padding-bottom: 1px;
+    background: linear-gradient(
+                    to left,
+                    rgba(84, 100, 121, 0),
+                    rgba(84, 100, 121, 0.5),
+                    rgba(84, 100, 121, 0.5),
+                    rgba(84, 100, 121, 0)
+            )
+            left
+            bottom
+            #777
+            no-repeat;
+    background-size: 100% 1px;
+}
